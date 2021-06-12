@@ -14,6 +14,7 @@ border: none;
    height: 100px;
    background-color: gray;
    text-align: center;
+   line-height: 100px;
  } 
  #Services :nth-child(2){
   float: left;
@@ -21,9 +22,19 @@ border: none;
   height: 100px;
   background-color: #F15A29;
   text-align: center;
+  line-height: 100px;
  }
  .service  :first-child{
-   float: left;
+   display: flex;
    background-image: url(./images/breakfast.jpg);
 
+ }
+ .service :nth-child(2){
+   display: flex;
+   background-image: url(./images/lunch.jpg);
+
+ }
+ .service :nth-child(3){
+   display: flex;
+   background-image: url(./images/dinner.jpg);
  }
