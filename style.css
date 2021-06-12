@@ -1,11 +1,29 @@
 #Header{
 text-align: center;
 background-image: url(./images/landing.jpg);
-background-origin: border-box
+border: none;
 }
 #Header p{
   font-family: 'Roboto', sans-serif;
   font-size:30px ;
-  padding: 0px;
+  margin-top: 0%;
 }
-  
+ #Services :first-child/* border is too big needs to beadjusted*/{
+   float: left;
+   width: 100px;
+   height: 100px;
+   background-color: gray;
+   text-align: center;
+ } 
+ #Services :nth-child(2){
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: #F15A29;
+  text-align: center;
+ }
+ .service  :first-child{
+   float: left;
+   background-image: url(./images/breakfast.jpg);
+
+ }
