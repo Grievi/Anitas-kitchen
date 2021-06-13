@@ -4,6 +4,10 @@ line-height: 20px;
 background-image: url(./images/landing.jpg);
 background-size: 100% 100%;
 height: 600px;
+font-family: 'Bad Script', cursive;
+font-size: 24px;
+font-weight: 500; ;
+color: aliceblue;
 }
 /* 
 styling the happy customers*/
@@ -59,4 +63,6 @@ styling the happy customers*/
   text-align: center;
   justify-content: center;
 }
-/* all the fonts needs to be styled */
+.footer-ext p{
+
+}

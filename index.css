@@ -8,26 +8,54 @@
 background-image: url(./images/breakfast.jpg);
 background-size: 100% 100%;
 width: 25%;
+font-family: 'Bad Script', cursive;
+font-size: 24px;
+font-weight:500 ;
+color: aliceblue;
+line-height: 100px;
+
+
 }
 .Lunch{
   background-image: url(./images/lunch.jpg);
   background-size: 100% 100%;
+  background-color: gray;
+  opacity: 0.6;
   width: 25%;
+  font-family: 'Bad Script', cursive;
+  font-size: 24px;
+  font-weight:500 ;
+  color: aliceblue;
+  line-height: 100px;
+
 }
 .Dinner{
   background-image: url(./images/dinner.jpg);
   background-size: 100% 100%;
   width: 25%;
+  font-family: 'Bad Script', cursive;
+  font-size: 24px;
+  font-weight:500 ;
+  color: aliceblue;
+  line-height: 100px;
+
 }
 .happy{
 width: 25%;
 display: flex;
 flex-direction: column;
+font-family: 'Bad Script', cursive;
+font-size: 24px;
+font-weight:500 ;
+color: aliceblue;
+line-height: 100px;
+
 ;
 }
 #hour{
   background-color: gray;
   height: 50%;
+  color: black;
 }
 #party{
   background-color: #f15A29;
@@ -42,7 +70,8 @@ flex-direction: column;
 }
 .fast{
   padding: 20px;
-  box-shadow:0 0 4px
+  box-shadow:0 0 4px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 .fast img{
   width: 100%;
@@ -51,15 +80,24 @@ flex-direction: column;
 }
 .row-imgs{
   flex-direction: column;
+  padding-block: 0px;
 
 }
 #food1{
   margin-left: 70px;
+  
+}
+button{
+  border: 2px solid #f15a29;
+  background-color: white;
+  color: #f15A29;
 }
 .main{
 display: flex;
-width: 80%;
+width: 80%;;
 margin: auto;
+padding: 10px;
+box-shadow:2px #f15A29;
 } /*need to style the div below*/
 .row-img4{
   box-shadow:0 0 4px;
@@ -69,15 +107,19 @@ margin: auto;
 .row-img3{
  padding-left: 50px;
 }
-#innermost-div{
+.outermost-div{
   background-image: url(./images/foodsBg.jpg);
   background-repeat: no-repeat;
-  width: 100%;
+  background-size: 100% 100%;
 }
 #burger{
   display: flex;
   margin: auto;
   width: 60%;
+  padding-bottom: 10px;
+  height: 200px;
+  justify-content: space-around;
+  ;
 }
 .f-food {
   display: flex;
@@ -85,6 +127,7 @@ margin: auto;
   margin: auto;
   align-items: center;
   justify-content: center;
+  padding-top: 30px;
 
 }
 .f-food h3{
