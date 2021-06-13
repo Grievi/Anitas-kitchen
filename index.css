@@ -58,8 +58,19 @@ flex-direction: column;
 }
 .main{
 display: flex;
+width: 80%;
+margin: auto;
 }
 .row-img4{
-  box-shadow: 0 0 04px;
-  padding: 20px;
+  box-shadow:0 0 4px;
+  padding: ;
+  margin-right: ;
+}
+.row-img3{
+ padding-left: 50px;
+}
+#outermost-div{
+  background-image: url(./images/foodsBg.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
