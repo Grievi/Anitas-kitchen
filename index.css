@@ -69,9 +69,24 @@ margin: auto;
 .row-img3{
  padding-left: 50px;
 }
-#outermost-div{
-  background-image: url('./images/foodsBg.jpg');
+#innermost-div{
+  background-image: url(./images/foodsBg.jpg);
   background-repeat: no-repeat;
   width: 100%;
+}
+#burger{
+  display: flex;
+  margin: auto;
+  width: 60%;
+}
+.f-food {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 
+}
+.f-food h3{
+  padding: 60px;
 }
