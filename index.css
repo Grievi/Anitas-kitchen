@@ -60,17 +60,18 @@ flex-direction: column;
 display: flex;
 width: 80%;
 margin: auto;
-}
+} /*need to style the div below*/
 .row-img4{
   box-shadow:0 0 4px;
-  padding: ;
-  margin-right: ;
+  padding:2px ;
+  margin-right: 0px;
 }
 .row-img3{
  padding-left: 50px;
 }
 #outermost-div{
-  background-image: url(./images/foodsBg.jpg);
+  background-image: url('./images/foodsBg.jpg');
   background-repeat: no-repeat;
-  background-size: auto;
+  width: 100%;
+
 }

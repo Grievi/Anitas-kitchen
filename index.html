@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <title>Anita's Kitchen</title>
 </head>
-<body>
+<body> <!--Navs needed!-->
   <div id="Header">
     <img src="./images/logoBig.png">
     <p>We Provide The Best Food</p> 
@@ -79,7 +79,7 @@
     </div>
     
       
-  <div id="outermost-div">
+  <div class="outermost-div">
     <div id="inside-div">
       <div>
         <div class="f-food">
@@ -99,29 +99,35 @@
       </div>
     </div>
   </div><!--End of Main content-->
-  <table>
-    <tr>
-      <th>Our Happy customers
-        <h3>George Richard</h3>
-      </th><!--need to add the name George Richard-->
-      <th>About Menu</th>
-    </tr>
-    <tr><!--will need to style the table-->
-      <td>Great food! Menu is awesome there foods are not only great but also in the right price. I'll highly recommend them:)  <br> <img src="./images/p1.png"><img src="./images/p2.png"><img src="./images/p3.png"></td>
-      <td>We are Menu a little team of 7 members, ut wisi enim ad minim veniam, quis nos trudexer ci tation ullamcorper suscipit lob ortis nisl ul aliquip ex ea commodo conse quat. Duisau tem vel enum iruire dolor in</td>
-    </tr>
-  </table><!--Beginning of the footer-->
+  <div class="customers">
+    <div class="george" id="Richard">
+      <h3>Happy Customers</h3>
+      <h3>Georg richard</h3>
+      <p>Great Food! Menu is awesome ,there foods are not only geat butalso in the right price. I'll highly recommend them:)</p>
+      <div class="happy-c"> 
+        <img src="./images/p1.png"><img src="./images/p2.png"><img src="./images/p3.png">
+        </div>
+    </div>
+    <div  class="george"><h3>About Menu</h3>
+      <p>We are a team of 7 members. Ut wisi enim ad minim veniam,quis nos trudexer ci tation ullamcoper suscpit lob ortis nisl ut aqcuip ex ea cmmodo conse quat. Duisao tem ve eum iruire dolor in</p>
+    </div>
+  </div>
+      <!--Beginning of the footer-->
   <div id="footer">
+    <div class="tomato">
     <p>Get your daily food items delivered to your email</p>
-    <p>Your email</p>
-    <p>Subscribe</p>
+    <p><input type="text" placeholder="Your Email" >  <button> Subscribe</button></p>
+    
+    </div>
     <div class="footer-ext">
       <h3><img src="./images/logo_white.png"> MENU</h3>
       <P>That What we Are</P>
+    <div class="png">
       <img src="./images/facebook.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
       <img src="./images/twitter.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
       <img src="./images/pinterest.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
       <p>2016 Menu Restaurant</p>
+    </div>
     </div><!--End of the footer-->
   </div>
 </body>
